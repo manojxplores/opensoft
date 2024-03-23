@@ -1,0 +1,64 @@
+.genre-cards {
+  width: 95vw;
+  /* margin: 0 2.5em; */
+  /* padding: 0 2.5em; */
+  overflow-x: scroll;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer and Edge */
+}
+
+.genre-cards::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
+}
+
+.genre-card-each h1 {
+  text-align: center;
+}
+.genre-cards {
+  /* width: 95vw; */
+  /* margin: 0 2.5em; */
+  /* padding: 0 2.5em; */
+  overflow-x: scroll;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer and Edge */
+}
+
+.genre-cards::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
+}
+
+.genre-card-each {
+  min-width: 150px;
+  color: rgb(0, 0, 0);
+  text-align: center !important;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 1rem;
+  border: 0;
+  margin: 50px 20px;
+  /* width: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+
+
+ 
+}
+.genre-card-each h1 {
+  font-size: 1.5rem;
+  /* font-weight: 300; */
+  text-align: center;
+  color: white;
+}
