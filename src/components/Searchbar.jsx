@@ -53,7 +53,7 @@ function Searchbar() {
           name="searchpanel"
           id="searchpanel"
           placeholder="Search Movie"
-          className="p-3 w-full mx-10 md:w-[40rem]  rounded-xl outline-none"
+          className="p-3 w-full mx-10 md:w-[40rem]  rounded-[30px] outline-none"
           onKeyUp={(e) => handleSearch()}
           value={value}
           onChange={(e) => setValue(e.target.value)}

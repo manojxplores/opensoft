@@ -1,4 +1,42 @@
 .navbar-top
 {
-    background-color: rgba(255, 0, 0, 0);
+    flex-wrap: wrap;
+    
 }
+.genres-section ul {
+  border-radius: 25px; /* Adjust the value as needed */
+}
+
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+    .navbar-top {
+      flex-direction: column; /* Change flex direction to stack items vertically */
+    }
+  
+    .genres-section,
+    .login-section {
+      width: 100%; 
+      margin-bottom: 10px; /* Add space between sections */
+    }
+  }
+  
+  /* For screens 768px and larger (typical tablets and desktops) */
+  @media (min-width: 768px) {
+    .navbar-top {
+      flex-direction: row; /* Revert flex direction to display items horizontally */
+    }
+  
+    .genres-section {
+      flex: 1; /* Take up available space */
+    }
+  
+    .login-section {
+      flex: 1; /* Take up available space */
+      justify-content: flex-end; /* Align items to the end of the container */
+    }
+  }
+  
+  *{
+    text-align: center;
+  }
